@@ -1,0 +1,14 @@
+:root{
+    --cor-de-fundo:#EBECEE;
+}
+body{
+    background-color: var(--cor-de-fundo)
+
+}
+h1{
+ background-color: black;
+ font-size: 100px;
+ text-align: center;
+ color: rgba(235, 7, 7, 0.685);
+ padding: 30%;
+}
