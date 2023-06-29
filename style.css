@@ -1,5 +1,9 @@
 :root{
     --cor-de-fundo:#EBECEE;
+    --branco:#FFFFFF;
+    --laranja:#EB9B00;
+    --azul-degrade:linear-gradient(97,54deg,#002f52 35,49%,#326589 165,37%);
+    font-size: 24px;
 }
 body{
     background-color: var(--cor-de-fundo)
@@ -45,7 +49,17 @@ h1{
         width: sem;
 
     }
+     .container_botao:checked ~ .lista-menu{
+            display: block;
+     }
+
+     .lista-menu{
+        display: inline-block;
+        position: absolute;
+        top: 100%;
+        width: 20vw;
+     }
+
      
-    
    
    
