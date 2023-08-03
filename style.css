@@ -18,7 +18,7 @@ body{
 .menu-hamburguer{
     width: 24px;
     height: 24px;
-    background-image: url(./img/Menu.svg);
+    background-image: url(./img/Menu.png);
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
@@ -112,4 +112,7 @@ body{
         text-transform: uppercase;
         font-weight: 700;
         padding: 1em 0 0.5em 0;
+     }
+     .swiper-slide img{
+        width: 50%;
      }

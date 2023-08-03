@@ -50,7 +50,6 @@
       <img src="./img/Favoritos.svg" class="container-imagem">
       <img src="./img/Compras.svg" class="container-imagem">
       <img src="./img/Usuario.svg" class="container-imagem">
-      <img src="./img/Pesquisa.svg" class="container-imagem">
     </div>
  </body>
  </header>
@@ -63,10 +62,39 @@
 
 <section class="carrosel">
     <h2 class="carrosel_titulo">Novos lançamentos</h2>
+    <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="./img/livro 1.svg"></div>
+    <div class="swiper-slide"><img src="./img/livro 2.svg"></div>
+    <div class="swiper-slide"><img src="./img/livro 3.svg"></div>
+    <div class="swiper-slide"><img src="./img/livro 4.svg"></div>
+    <div class="swiper-slide"><img src="./img/livro 5.svg"></div>
+    <div class="swiper-slide"><img src="./img/livro 6.svg"></div>
+    <div class="swiper-slide"><img src="./img/livro 7.svg"></div>
+    <div class="swiper-slide"><img src="./img/livro 8.svg"></div>
+    <div class="swiper-slide"><img src="./img/livro 9.svg"></div>
+    <div class="swiper-slide"><img src="./img/livro 10.svg"></div>
+ 
+ 
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
 </section>
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
+<script>const swiper = new Swiper('.swiper', {
+  
+  spaceBetween: 10,
+  slidesPerView: 3,
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',},
 
+});
+</script>
 
 
 </html>
