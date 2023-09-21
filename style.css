@@ -206,6 +206,7 @@ text-align: center;
 .topicos{
   background: var(--azul-degrade);
   text-align: center;
+  padding: 3em;
 }
 
 .Titulos-topicos{
@@ -213,6 +214,7 @@ text-align: center;
   font-size: 50;
   font-size: 20px;
   font-weight: 300;
+  padding: 2em;
 }
 
 .Topicos-lista{
@@ -228,4 +230,37 @@ text-align: center;
   font-size: 14px;
   margin: 10px;
   border-radius: 15px;
+}
+
+.rodape{
+  background-color: var(--branco);
+  padding: 1em;
+}
+
+.contato-titulo{
+  font-size: 2em;
+  font-weight: 700;
+}
+.contato-texto{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.contato-email{
+  padding: 1em;
+  border-radius: 25px;
+  border: 5px solid var(--laranja);
+  width: 40%;
+  color: rgb(227, 0, 0);
+}
+
+.contato-email::placeholder{
+  
+  font-family: 'Times New Roman', Times, serif;
+  color: #b63e01;
+  background:url(./img/email.svg) no-repeat;
+  background-position: 0;
+  width: 23%;
+  height: 16px;
+  
 }
